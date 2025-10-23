@@ -116,7 +116,7 @@ const Footer = () => {
                 </a>
                 
                 <a
-                  href="https://wa.me/919310906026"
+                  href="https://wa.me/918383997355"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-to-br from-green-600 to-green-700 p-3 rounded-lg hover:from-green-700 hover:to-green-800 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-110"
