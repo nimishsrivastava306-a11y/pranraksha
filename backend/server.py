@@ -120,11 +120,15 @@ async def login(login_data: UserLogin):
 
 @api_router.post("/verify-document-password")
 async def verify_document_password(data: PasswordVerify):
-    # The correct password (in production, this should be in environment variables)
-    # For now, we'll use a simple comparison with the encrypted password
-    correct_password = "aryan@66865"
+    # Get the hashed password from environment or use default
+    # The password "aryan@66865" is hashed using bcrypt
+    stored_password_hash = os.environ.get(
+        'DOCUMENT_PASSWORD_HASH',
+        '$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewY5eidoK1QM3QK2'  # Hash of "aryan@66865"
+    )
     
-    if data.password == correct_password:
+    # Verify the password using bcrypt
+    if pwd_context.verify(data.password, stored_password_hash):
         return {"success": True, "message": "Password verified"}
     else:
         raise HTTPException(status_code=401, detail="Incorrect password")
