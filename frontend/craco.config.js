@@ -68,6 +68,12 @@ const webpackConfig = {
         webpackConfig.plugins.push(healthPluginInstance);
       }
 
+
+            // Ignore ajv-keywords validation errors
+      webpackConfig.ignoreWarnings = [
+        /Failed to parse source map/,
+        /ajv-keywords/,
+      ];
       return webpackConfig;
     },
   },
