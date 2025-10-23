@@ -3,14 +3,12 @@ import { FileText, Globe } from 'lucide-react';
 
 const PublicResources = () => {
   const resources = [
-    { icon: '📢', title: 'Marketing Presentation', link: 'https://drive.google.com/file/d/1pMnE9zTxO9eZK7sVy7cH8vQxj5TfD7Yw/view?usp=drive_link' },
-    { icon: '📘', title: 'Product Catalog', link: 'https://drive.google.com/file/d/1kR5bXkQsD4fN2pYzL1hE9wXxQ6vTcZ8m/view?usp=drive_link' },
-    { icon: '🎯', title: 'Company Overview', link: 'https://drive.google.com/file/d/1nY8wP3vR7qF6xZ5mJ9kL2tC4bH1sN0oQ/view?usp=drive_link' },
-    { icon: '📞', title: 'Contact Information', link: 'https://drive.google.com/file/d/1aB2cD3eF4gH5iJ6kL7mN8oP9qR0sT1u/view?usp=drive_link' },
-    { icon: '🎓', title: 'Training Materials', link: 'https://drive.google.com/file/d/1vW2xY3zA4bC5dE6fG7hI8jK9lM0nO1p/view?usp=drive_link' },
-    { icon: '📊', title: 'Industry Reports', link: 'https://drive.google.com/file/d/1qR2sT3uV4wX5yZ6aB7cD8eF9gH0iJ1k/view?usp=drive_link' },
-    { icon: '💡', title: 'Innovation Insights', link: 'https://drive.google.com/file/d/1lM2nO3pQ4rS5tU6vW7xY8zA9bC0dE1f/view?usp=drive_link' },
-    { icon: '🌟', title: 'Success Stories', link: 'https://drive.google.com/file/d/1gH2iJ3kL4mN5oP6qR7sT8uV9wX0yZ1a/view?usp=drive_link' },
+    { icon: '📦', title: 'Pranraksha Module', link: 'https://drive.google.com/file/d/14POCj-uxQW1sXZiwkUxeOndq3w76Je0N/view?usp=drivesdk' },
+    { icon: '📊', title: 'Pitch Deck', link: 'https://drive.google.com/file/d/1AEFn-4PCxP_uaAZWY8bcRH3pcwsdAMFt/view?usp=drivesdk' },
+    { icon: '📽️', title: 'Pranraksha PPT', link: 'https://drive.google.com/file/d/14PkhW6JX3ar-5WSQEQsu-aOFuRctvz0i/view?usp=drivesdk' },
+    { icon: '🎥', title: 'Video Explanation', link: 'https://drive.google.com/file/d/1BfEIQUY_e75ck3aQ3KBtCwk3cC2blI-s/view?usp=sharing' },
+    { icon: '🇮🇳', title: 'Hindi Explanation', link: 'https://drive.google.com/file/d/1xgwrJptVfYAHhZlcYGDCho3coKZQ4ofu/view?usp=drivesdk' },
+    { icon: '🇬🇧', title: 'English Pitch Video', link: 'https://drive.google.com/file/d/1xcrynIUIky-4RUwZFSxxFhtyD2PWmqRT/view?usp=drivesdk' },
   ];
 
   return (
