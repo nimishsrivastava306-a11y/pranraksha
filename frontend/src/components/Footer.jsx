@@ -29,23 +29,23 @@ const Footer = () => {
             </h4>
             <div className="space-y-3">
               <a 
-                href="mailto:pranraksha@gmail.com"
+                href="mailto:pranrakshaa@gmail.com"
                 className="flex items-center space-x-3 text-gray-400 hover:text-orange-400 transition-colors duration-300 group"
               >
                 <div className="bg-orange-500/20 p-2 rounded-lg group-hover:bg-orange-500/30 transition-colors">
                   <Mail className="w-5 h-5 text-orange-400" />
                 </div>
-                <span className="font-medium">pranraksha@gmail.com</span>
+                <span className="font-medium">pranrakshaa@gmail.com</span>
               </a>
               
               <a 
-                href="tel:+919310906026"
+                href="tel:+918383997355"
                 className="flex items-center space-x-3 text-gray-400 hover:text-orange-400 transition-colors duration-300 group"
               >
                 <div className="bg-orange-500/20 p-2 rounded-lg group-hover:bg-orange-500/30 transition-colors">
                   <Phone className="w-5 h-5 text-orange-400" />
                 </div>
-                <span className="font-medium">+91 9310906026</span>
+                <span className="font-medium">+91 8383997355</span>
               </a>
             </div>
           </div>
