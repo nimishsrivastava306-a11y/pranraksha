@@ -66,7 +66,7 @@ const Footer = () => {
                 → Official Website
               </a>
               <a 
-                href="https://pranraksha.in/shop/"
+                href="https://pranraksha.shop/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-gray-400 hover:text-orange-400 transition-colors duration-300 font-medium"
@@ -96,7 +96,7 @@ const Footer = () => {
                 </a>
                 
                 <a
-                  href="https://www.instagram.com/pranraksha/"
+                  href="https://www.instagram.com/pran.raksha/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-to-br from-pink-600 to-purple-700 p-3 rounded-lg hover:from-pink-700 hover:to-purple-800 transition-all duration-300 shadow-lg hover:shadow-pink-500/50 hover:scale-110"
