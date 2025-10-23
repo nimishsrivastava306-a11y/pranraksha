@@ -123,7 +123,7 @@ async def verify_document_password(data: PasswordVerify):
     # Get the hashed password from environment or use default
     # The password "aryan@66865" is hashed using bcrypt
     stored_password_hash = os.environ.get(
-        'DOCUMENT_PASSWORD_HASH',
+        '',
         '$2b$12$E8QJhkzptu8yAbbHwJF5Ie.DhD4Tl.lX9/XQKvE.rZGtb5OVRh2mC'  # Hash of "aryan@66865"    )
     
     # Verify the password using bcrypt
