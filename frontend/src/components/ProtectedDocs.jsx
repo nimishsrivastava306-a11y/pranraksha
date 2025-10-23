@@ -12,10 +12,11 @@ const ProtectedDocs = () => {
   const [loading, setLoading] = useState(false);
 
   const documents = [
-    { icon: '📊', title: 'Annual Report 2024', link: 'https://drive.google.com/file/d/1iWyMNhcYdFg5xgfCO5Z3jJQHr7GUz_P2/view?usp=drive_link' },
-    { icon: '📋', title: 'Internal Strategy Document', link: 'https://drive.google.com/file/d/1_xJsZx7Sg-x6xR5pfxzR2RQCfxlCfE9Y/view?usp=drive_link' },
-    { icon: '🔒', title: 'Confidential Data Analysis', link: 'https://drive.google.com/file/d/1mh4c0ixhBcuY5Ydgxl8VJ9zWxhLp0Nql/view?usp=drive_link' },
-    { icon: '📈', title: 'Financial Projections', link: 'https://drive.google.com/file/d/1Z8sIVzWEQi3OTHdBkXzA2bQ2v7qkVx8y/view?usp=drive_link' },
+    { icon: '📊', title: 'Pranraksha Google Sheet', link: 'https://docs.google.com/spreadsheets/d/1eskvdoopSGGqnTubF3A_eAm_J_Bh94EQwnH0EmVQjbI/edit?usp=sharing' },
+    { icon: '📋', title: 'Market Analysis', link: 'https://drive.google.com/file/d/1D7E5HCu3xtQJojk-VYCg6hXZVDRatQfE/view?usp=drivesdk' },
+    { icon: '🔒', title: 'Competitors Analysis', link: 'https://drive.google.com/file/d/1DMkHTWQBaYLjKbztMcJIhMPxPIJ7aNsr/view?usp=drivesdk' },
+    { icon: '📈', title: 'USP Differentiation', link: 'https://drive.google.com/file/d/1PRMNj82G_KESBCWt39yIxQzT2Rc2R9ua/view?usp=drivesdk' },
+    { icon: '📄', title: 'Competitors Document', link: 'https://docs.google.com/document/d/138W-3psWwAbtoqcGJWvGu3fFjgg7x5LKrNj-qWJajIM/edit?usp=drivesdk' },
   ];
 
   const handleUnlock = async () => {
