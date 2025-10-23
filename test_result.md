@@ -243,9 +243,6 @@ metadata:
 
 test_plan:
   current_focus:
-    - "User Registration API"
-    - "User Login API"
-    - "Document Password Verification API"
     - "Protected Documents Section"
     - "Authentication Modal"
     - "Footer visibility and icons"
